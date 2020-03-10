@@ -6,7 +6,15 @@ namespace ProjectExoduS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("ooga booga din kommun....");
+            while (true)
+            {
+                MainMenu A = new MainMenu();
+                BattleField B = new BattleField();
+
+                B.Battle();
+            }
+        
         }
     }
 }
